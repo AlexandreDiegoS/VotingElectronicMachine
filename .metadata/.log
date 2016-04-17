@@ -1,0 +1,116 @@
+!SESSION 2016-04-17 19:19:32.745 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.rodinp.core 4 4 2016-04-17 19:37:44.488
+!MESSAGE  while running tool org.eventb.core.machineSC on /VEM/VEM_machine.bum
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.rodinp.internal.core.RodinDBOperation.deleteResource(RodinDBOperation.java:299)
+	at org.rodinp.internal.core.CopyResourceElementsOperation.processRodinFileResource(CopyResourceElementsOperation.java:139)
+	at org.rodinp.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:197)
+	at org.rodinp.internal.core.MultiOperation.processElements(MultiOperation.java:208)
+	at org.rodinp.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:214)
+	at org.rodinp.internal.core.MultiOperation.executeOperation(MultiOperation.java:129)
+	at org.rodinp.internal.core.RodinDBOperation.run(RodinDBOperation.java:706)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.rodinp.internal.core.RodinDBOperation.runOperation(RodinDBOperation.java:764)
+	at org.rodinp.core.basis.RodinElement.runOperation(RodinElement.java:502)
+	at org.rodinp.internal.core.RodinFile.move(RodinFile.java:265)
+	at org.eventb.core.sc.StaticChecker.compareAndSave(StaticChecker.java:144)
+	at org.eventb.core.sc.StaticChecker.run(StaticChecker.java:232)
+	at org.rodinp.internal.core.builder.FileRunnable.run(FileRunnable.java:37)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.rodinp.internal.core.BatchOperation.executeOperation(BatchOperation.java:44)
+	at org.rodinp.internal.core.RodinDBOperation.run(RodinDBOperation.java:706)
+	at org.rodinp.core.RodinCore.run(RodinCore.java:397)
+	at org.rodinp.core.RodinCore.run(RodinCore.java:358)
+	at org.rodinp.internal.core.builder.Graph.runTool(Graph.java:340)
+	at org.rodinp.internal.core.builder.Graph.topSortStep(Graph.java:548)
+	at org.rodinp.internal.core.builder.Graph.topSortNodes(Graph.java:527)
+	at org.rodinp.internal.core.builder.Graph.builderBuildGraph(Graph.java:193)
+	at org.rodinp.internal.core.builder.RodinBuilder.buildGraph(RodinBuilder.java:253)
+	at org.rodinp.internal.core.builder.RodinBuilder.incrementalBuild(RodinBuilder.java:372)
+	at org.rodinp.internal.core.builder.RodinBuilder.build(RodinBuilder.java:222)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Resource is out of sync with the file system: '/VEM/VEM_machine.bcm'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2016-04-17 19:37:44.576
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2016-04-17 19:37:44.576
+!MESSAGE Resource is out of sync with the file system: '/VEM/VEM_machine.bcm'.
+
+!ENTRY org.rodinp.core 4 4 2016-04-17 19:37:51.410
+!MESSAGE  while running tool org.eventb.core.contextSC on /VEM/VEM_context.buc
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.rodinp.internal.core.RodinDBOperation.deleteResource(RodinDBOperation.java:299)
+	at org.rodinp.internal.core.CopyResourceElementsOperation.processRodinFileResource(CopyResourceElementsOperation.java:139)
+	at org.rodinp.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:197)
+	at org.rodinp.internal.core.MultiOperation.processElements(MultiOperation.java:208)
+	at org.rodinp.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:214)
+	at org.rodinp.internal.core.MultiOperation.executeOperation(MultiOperation.java:129)
+	at org.rodinp.internal.core.RodinDBOperation.run(RodinDBOperation.java:706)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.rodinp.internal.core.RodinDBOperation.runOperation(RodinDBOperation.java:764)
+	at org.rodinp.core.basis.RodinElement.runOperation(RodinElement.java:502)
+	at org.rodinp.internal.core.RodinFile.move(RodinFile.java:265)
+	at org.eventb.core.sc.StaticChecker.compareAndSave(StaticChecker.java:144)
+	at org.eventb.core.sc.StaticChecker.run(StaticChecker.java:232)
+	at org.rodinp.internal.core.builder.FileRunnable.run(FileRunnable.java:37)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.rodinp.internal.core.BatchOperation.executeOperation(BatchOperation.java:44)
+	at org.rodinp.internal.core.RodinDBOperation.run(RodinDBOperation.java:706)
+	at org.rodinp.core.RodinCore.run(RodinCore.java:397)
+	at org.rodinp.core.RodinCore.run(RodinCore.java:358)
+	at org.rodinp.internal.core.builder.Graph.runTool(Graph.java:340)
+	at org.rodinp.internal.core.builder.Graph.topSortStep(Graph.java:548)
+	at org.rodinp.internal.core.builder.Graph.topSortNodes(Graph.java:527)
+	at org.rodinp.internal.core.builder.Graph.builderBuildGraph(Graph.java:193)
+	at org.rodinp.internal.core.builder.RodinBuilder.buildGraph(RodinBuilder.java:253)
+	at org.rodinp.internal.core.builder.RodinBuilder.incrementalBuild(RodinBuilder.java:372)
+	at org.rodinp.internal.core.builder.RodinBuilder.build(RodinBuilder.java:222)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Resource is out of sync with the file system: '/VEM/VEM_context.bcc'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2016-04-17 19:37:51.411
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2016-04-17 19:37:51.411
+!MESSAGE Resource is out of sync with the file system: '/VEM/VEM_context.bcc'.
+!SESSION 2016-04-17 19:40:01.229 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eventb.core 4 2 2016-04-17 19:41:05.065
+!MESSAGE overriding corrupted proof file /VEM/VEM_machine.bpr
+
+!ENTRY org.eventb.core 4 2 2016-04-17 19:41:26.453
+!MESSAGE overriding corrupted proof file /VEM/VEM_context.bpr
