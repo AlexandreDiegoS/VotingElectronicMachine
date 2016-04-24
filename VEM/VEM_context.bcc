@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd"/>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="partition_Elector" org.eventb.core.predicate="partition(Elector,{Airton},{Alexandre},{Thiago})" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_B7ptAApIEeaMyLzwC0q9TQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="partition_hasVoted" org.eventb.core.predicate="partition(HasVoted,{Yes},{No})" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_A_GIsApJEeaMyLzwC0q9TQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="partition_Code" org.eventb.core.predicate="card(Code)=3" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_FqUoEApREeaMyLzwC0q9TQ" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="Airton" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7nQwApIEeaMyLzwC0q9TQ" org.eventb.core.type="Elector"/>
+<org.eventb.core.scConstant name="Alexandre" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7n30ApIEeaMyLzwC0q9TQ" org.eventb.core.type="Elector"/>
+<org.eventb.core.scCarrierSet name="Code" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_xIlM4ApREeaMyLzwC0q9TQ" org.eventb.core.type="ℙ(Code)"/>
+<org.eventb.core.scCarrierSet name="Elector" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_B7mCoApIEeaMyLzwC0q9TQ" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.scCarrierSet name="HasVoted" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_A_DscApJEeaMyLzwC0q9TQ" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.scConstant name="No" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_FhoApJEeaMyLzwC0q9TQ" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.scConstant name="Thiago" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7pF8ApIEeaMyLzwC0q9TQ" org.eventb.core.type="Elector"/>
+<org.eventb.core.scConstant name="Yes" org.eventb.core.source="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_ETgApJEeaMyLzwC0q9TQ" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.scContextFile>
