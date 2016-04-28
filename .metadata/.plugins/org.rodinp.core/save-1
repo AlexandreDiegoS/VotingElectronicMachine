@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/VEM">
+<rodin_index>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_o3oZcApIEeaMyLzwC0q9TQ" name="electors">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_oMbQwAp-EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_57NlgApkEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_oVZ5UApMEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_MucPQApKEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqWV4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="14"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqWV4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="26"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_o3oZcApIEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.guard#_PdDlEApfEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="14"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_57NlgApkEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="12"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.action#_JbXucAzbEeah2aWuHe1LQA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.guard#_FHOQIApTEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="14"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_3Bwo8ApgEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_3Bwo8ApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="12"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.guard#_sBjq4ApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="16"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_oMbQwAp-EeamY52N8g63kA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ" name="manageElectorsAndCandidates">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_MuboMApKEeaMyLzwC0q9TQ" name="candidates">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.action#_nqKvsApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="13"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqI6gApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="16"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ|org.eventb.core.guard#_Yn2JYApOEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_v_T1sApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.action#_nqYLEApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="27"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_MuboMApKEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_eHUpAAp-EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="12"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_v_T1sApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="13"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_nqPoMApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_v_T1sApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="50" loc_char_start="40"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.action#_nqYLEApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.guard#_sBmHIApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="16"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.guard#_FHR6gApTEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="15"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.action#_ROGq8AzbEeah2aWuHe1LQA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_RHKboApNEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg|org.eventb.core.action#_v_RZcApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="10"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg|org.eventb.core.action#_v_RZcApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="42" loc_char_start="32"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.action#_nqKvsApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.guard#_JxPfgApkEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ" name="initVoting">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.parameter#_RHH_YApNEeaMyLzwC0q9TQ" name="manage">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.action#_sBpxgApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="43" loc_char_start="37"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.guard#_sBn8UApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.parameter#_RHH_YApNEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_eHQXkAp-EeamY52N8g63kA" name="manageElectors">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.action#_nqMk4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_ebqngAphEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_Qf6FAApmEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_ebqngAphEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_y5ya4ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.action#_nqMk4ApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_eHQXkAp-EeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_o3qOoApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_Qf6FAApmEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.action#_v_SnkApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.action#_sBpxgApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="33" loc_char_start="19"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.action#_v_SnkApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.action#_sBpxgApgEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_ebscsAphEea4A8oTnyPTYg" name="beginRegister">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_ebscsAphEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg|org.eventb.core.guard#_VHlRYQp_EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_ebtDwAphEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ|org.eventb.core.guard#_YnxQ4ApOEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ|org.eventb.core.action#_v3i0EApXEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.guard#_FHTIoApTEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_np7fIApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_12ssYApSEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.guard#_2TRD4ApjEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.guard#_azyP8ApjEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.action#_ROGD4AzbEeah2aWuHe1LQA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.guard#_np30wApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.guard#_v3d7kApXEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.guard#_2oWpcAzcEeah2aWuHe1LQA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg" name="vote">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQQqAEeamY52N8g63kA" name="add_elector">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQQqAEeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_ebqngAphEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="26" loc_char_start="15"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_FqUoEApREeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="19"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_y5ya4ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="26"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg" name="endVoting">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context" name="VEM_context">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.seesContext#_KiJJEApFEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_FhoApJEeaMyLzwC0q9TQ" name="No">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_FhoApJEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_A_GIsApJEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="28"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqWV4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="48" loc_char_start="46"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_3Bwo8ApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="38" loc_char_start="36"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_57NlgApkEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="36" loc_char_start="34"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7n30ApIEeaMyLzwC0q9TQ" name="Mickey">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7n30ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_B7ptAApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="29"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_S0WZYApREeaMyLzwC0q9TQ" name="beginVoting">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_Yn3XgApOEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.guard#_2dzsgApOEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_np5p8ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.guard#_np1YgApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.action#_ROE1wAzbEeah2aWuHe1LQA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.guard#_nqHFUApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg|org.eventb.core.action#_v_QLUApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_S0WZYApREeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ|org.eventb.core.guard#_RHImcApNEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.guard#_nppyUApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.guard#_2oUNMAzcEeah2aWuHe1LQA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_g1F60ApSEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg|org.eventb.core.guard#_0ulUUAp_EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.guard#_nqUgsApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ|org.eventb.core.action#_FHPeQApTEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.parameter#_FHMa8ApTEeaMyLzwC0q9TQ" name="elector">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.guard#_FHOQIApTEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.action#_3Bwo8ApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="31" loc_char_start="24"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.parameter#_FHMa8ApTEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg" name="removeCandidate">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQgqAEeamY52N8g63kA" name="rem_elector">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQgqAEeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_y5ya4ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="56" loc_char_start="45"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_FqUoEApREeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="62" loc_char_start="51"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_Qf6FAApmEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="26" loc_char_start="15"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ" name="registerCandidate">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.parameter#_sBh1sApgEea4A8oTnyPTYg" name="candidate">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.parameter#_sBh1sApgEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.guard#_sBjq4ApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.action#_nqKvsApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="36" loc_char_start="27"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.guard#_sBmHIApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine" name="VEM_machine">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_nqNzAApnEea4A8oTnyPTYg" name="winners">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_eHUpAAp-EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_nqNzAApnEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_MuYk4ApKEeaMyLzwC0q9TQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg|org.eventb.core.action#_v_RZcApnEea4A8oTnyPTYg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA|org.eventb.core.action#_ROoX8AqBEeamY52N8g63kA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ" name="registerElector">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.parameter#_Yn07QApOEeaMyLzwC0q9TQ" name="newState">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.parameter#_Yn07QApOEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.guard#_FHNCAApTEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.action#_sBpxgApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="56" loc_char_start="48"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.parameter#_VHSWcAp_EeamY52N8g63kA" name="elector">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.parameter#_VHSWcAp_EeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqWV4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqWV4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="35"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_oMbQwAp-EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_ETgApJEeaMyLzwC0q9TQ" name="Yes">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_A_GIsApJEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_oMbQwAp-EeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="21"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_ETgApJEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.parameter#_sBjD0ApgEea4A8oTnyPTYg" name="candidate">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.parameter#_sBjD0ApgEea4A8oTnyPTYg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.guard#_JxPfgApkEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.action#_nqYLEApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="14"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ" name="removeElector">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQwqAEeamY52N8g63kA" name="add_candidate">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQwqAEeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_FqUoEApREeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="34"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.action#_nqMk4ApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="28" loc_char_start="15"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_y5ya4ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="76" loc_char_start="63"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7nQwApIEeaMyLzwC0q9TQ" name="Fofao">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_B7ptAApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="20"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7nQwApIEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA" name="resetSystem">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_A_DscApJEeaMyLzwC0q9TQ" name="HasVoted">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_A_DscApJEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_A_GIsApJEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="10"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_MucPQApKEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="21"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_xIlM4ApREeaMyLzwC0q9TQ" name="Code">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_xIlM4ApREeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_PZuhRQqAEeamY52N8g63kA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="5"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.parameter#_FHRTcApTEeaMyLzwC0q9TQ" name="elector">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.guard#_FHR6gApTEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.parameter#_FHRTcApTEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.guard#_PdDlEApfEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.action#_57NlgApkEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="31" loc_char_start="24"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_B7mCoApIEeaMyLzwC0q9TQ" name="Elector">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_B7ptAApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_B7mCoApIEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_MucPQApKEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="11"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_nqPoMApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="13"/>
+</descriptor>
+<descriptor element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.parameter#_qNnIkAqCEea7o5STXFGJgQ" name="candidate">
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_v_T1sApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="36" loc_char_start="27"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.guard#_nqI6gApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.action#_v_T1sApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="60" loc_char_start="51"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.parameter#_qNnIkAqCEea7o5STXFGJgQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7pF8ApIEeaMyLzwC0q9TQ" name="Popeye">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7pF8ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_B7ptAApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="45" loc_char_start="39"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhRAqAEeamY52N8g63kA" name="rem_candidate">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_FqUoEApREeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="79" loc_char_start="66"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhRAqAEeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'|org.eventb.core.action#_y5ya4ApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="96" loc_char_start="83"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.action#_v_SnkApnEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="28" loc_char_start="15"/>
+</descriptor>
+<descriptor element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_PZuhQAqAEeamY52N8g63kA" name="Manage">
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.axiom#_FqUoEApREeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.guard#_sBn8UApgEea4A8oTnyPTYg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.invariant#_o3qOoApIEeaMyLzwC0q9TQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="17"/>
+<occurrence element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_PZuhQAqAEeamY52N8g63kA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/VEM/VEM_machine.bum">
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ|org.eventb.core.parameter#_FHRTcApTEeaMyLzwC0q9TQ" name="elector"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ" name="manageElectorsAndCandidates"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine" name="VEM_machine"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ|org.eventb.core.parameter#_FHMa8ApTEeaMyLzwC0q9TQ" name="elector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_FhoApJEeaMyLzwC0q9TQ" name="No"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_o3oZcApIEeaMyLzwC0q9TQ" name="electors"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_B7mCoApIEeaMyLzwC0q9TQ" name="Elector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_ETgApJEeaMyLzwC0q9TQ" name="Yes"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_VHlRYAp_EeamY52N8g63kA" name="resetSystem"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_oVYEIApMEeaMyLzwC0q9TQ" name="initVoting"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg|org.eventb.core.parameter#_sBjD0ApgEea4A8oTnyPTYg" name="candidate"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_ebscsAphEea4A8oTnyPTYg" name="beginRegister"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ" name="registerCandidate"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_v3cGYApXEeaMyLzwC0q9TQ|org.eventb.core.parameter#_sBh1sApgEea4A8oTnyPTYg" name="candidate"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_MuboMApKEeaMyLzwC0q9TQ" name="candidates"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_A_DscApJEeaMyLzwC0q9TQ" name="HasVoted"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_eHQXkAp-EeamY52N8g63kA" name="manageElectors"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_PZuhQAqAEeamY52N8g63kA" name="Manage"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg" name="vote"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.parameter#_qNnIkAqCEea7o5STXFGJgQ" name="candidate"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_S0WZYApREeaMyLzwC0q9TQ" name="beginVoting"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_FHLM0ApTEeaMyLzwC0q9TQ" name="removeElector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQwqAEeamY52N8g63kA" name="add_candidate"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhRAqAEeamY52N8g63kA" name="rem_candidate"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.parameter#_Yn07QApOEeaMyLzwC0q9TQ" name="newState"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_xIlM4ApREeaMyLzwC0q9TQ" name="Code"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7n30ApIEeaMyLzwC0q9TQ" name="Mickey"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQgqAEeamY52N8g63kA" name="rem_elector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQQqAEeamY52N8g63kA" name="add_elector"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_YnztIApOEeaMyLzwC0q9TQ" name="registerElector"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_sBfZcApgEea4A8oTnyPTYg" name="removeCandidate"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7nQwApIEeaMyLzwC0q9TQ" name="Fofao"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.variable#_nqNzAApnEea4A8oTnyPTYg" name="winners"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_azvMoApjEea4A8oTnyPTYg|org.eventb.core.parameter#_VHSWcAp_EeamY52N8g63kA" name="elector"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_RHGKMApNEeaMyLzwC0q9TQ|org.eventb.core.parameter#_RHH_YApNEeaMyLzwC0q9TQ" name="manage"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context" name="VEM_context"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7pF8ApIEeaMyLzwC0q9TQ" name="Popeye"/>
+<exported element="/VEM/VEM_machine.bum|org.eventb.core.machineFile#VEM_machine|org.eventb.core.event#_nqSEcApnEea4A8oTnyPTYg" name="endVoting"/>
+</export>
+<export file="/VEM/VEM_context.buc">
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQwqAEeamY52N8g63kA" name="add_candidate"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhRAqAEeamY52N8g63kA" name="rem_candidate"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_xIlM4ApREeaMyLzwC0q9TQ" name="Code"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_FhoApJEeaMyLzwC0q9TQ" name="No"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_B7mCoApIEeaMyLzwC0q9TQ" name="Elector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_A_ETgApJEeaMyLzwC0q9TQ" name="Yes"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7n30ApIEeaMyLzwC0q9TQ" name="Mickey"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQgqAEeamY52N8g63kA" name="rem_elector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_PZuhQQqAEeamY52N8g63kA" name="add_elector"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7nQwApIEeaMyLzwC0q9TQ" name="Fofao"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context" name="VEM_context"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.constant#_B7pF8ApIEeaMyLzwC0q9TQ" name="Popeye"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_A_DscApJEeaMyLzwC0q9TQ" name="HasVoted"/>
+<exported element="/VEM/VEM_context.buc|org.eventb.core.contextFile#VEM_context|org.eventb.core.carrierSet#_PZuhQAqAEeamY52N8g63kA" name="Manage"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/VEM/VEM_context.buc" mark="false" order_pos="0"/>
+<node label="/VEM/VEM_machine.bum" mark="false" order_pos="1">
+<predecessor label="/VEM/VEM_context.buc"/>
+</node>
+</graph>
+<unprocessed file="/VEM/VEM_context.bcc"/>
+<unprocessed file="/VEM/VEM_context.bpo"/>
+<unprocessed file="/VEM/VEM_context.bpr"/>
+<unprocessed file="/VEM/VEM_context.bps"/>
+<unprocessed file="/VEM/VEM_machine.bcm"/>
+<unprocessed file="/VEM/VEM_machine.bpo"/>
+<unprocessed file="/VEM/VEM_machine.bpr"/>
+<unprocessed file="/VEM/VEM_machine.bps"/>
+<unprocessed file="/VEM/VEM_machine.bcm_tmp"/>
+<unprocessed file="/VEM/VEM_machine.bpo_tmp"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>
