@@ -113,7 +113,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="removeElector/type_electors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -148,11 +148,6 @@
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p16" org.eventb.core.predicate="elector∉dom(candidates)">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
 <org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
@@ -163,9 +158,9 @@
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -178,11 +173,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -211,11 +201,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -242,18 +231,29 @@
 <org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬elector∈dom(candidates)">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
 <org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
 <org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="registerElector/type_electors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -288,11 +288,6 @@
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬elector∈dom(electors)">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
@@ -304,9 +299,9 @@
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -326,11 +321,6 @@
 <org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="electors" org.eventb.core.type="ℙ(Elector×HasVoted)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
@@ -358,11 +348,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -389,9 +378,20 @@
 <org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="INITIALISATION/type_candidates/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="Elector,HasVoted">
 <org.eventb.core.lang name="L"/>
@@ -699,7 +699,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="registerCandidate/type_candidates/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -734,19 +734,14 @@
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -759,11 +754,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -797,11 +787,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -833,9 +822,20 @@
 <org.eventb.core.prIdent name="candidate" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="removeCandidate/type_electors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -908,7 +908,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="removeCandidate/type_candidates/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -938,19 +938,14 @@
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -963,11 +958,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -996,11 +986,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -1027,8 +1016,19 @@
 <org.eventb.core.prPred name="p16" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="vote/guard_elector/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="Elector,HasVoted">
 <org.eventb.core.lang name="L"/>
@@ -1102,7 +1102,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="vote/type_candidates/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="p0" org.eventb.core.prSets="Elector,HasVoted">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3,p4,p5"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3,p4,p5"/>
@@ -1150,20 +1150,11 @@
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="electors" org.eventb.core.type="ℙ(Elector×HasVoted)"/>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p24" org.eventb.core.predicate="HasVoted={Yes,electors(elector)}">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p7" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_elector=rem_candidate">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -1183,11 +1174,6 @@
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p10" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
@@ -1201,14 +1187,19 @@
 <org.eventb.core.prPred name="p22" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬Yes=electors(elector)">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p23" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
@@ -1233,6 +1224,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Yes=No">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
@@ -1243,11 +1238,16 @@
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="electors∈Elector ⇸ HasVoted"/>
 <org.eventb.core.prPred name="p21" org.eventb.core.predicate="electors(elector)=No"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="vote/voteInCandidate/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2" org.eventb.core.prSets="Elector">
 <org.eventb.core.lang name="L"/>
@@ -1359,7 +1359,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="vote/type_electors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="p0" org.eventb.core.prSets="Elector,HasVoted">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3,p4,p5"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3,p4,p5"/>
@@ -1407,20 +1407,11 @@
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="electors" org.eventb.core.type="ℙ(Elector×HasVoted)"/>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p24" org.eventb.core.predicate="HasVoted={Yes,electors(elector)}">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p7" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_elector=rem_candidate">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -1440,11 +1431,6 @@
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p10" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
@@ -1458,14 +1444,19 @@
 <org.eventb.core.prPred name="p22" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬Yes=electors(elector)">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p23" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
@@ -1490,6 +1481,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Yes=No">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
@@ -1500,11 +1495,16 @@
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="electors∈Elector ⇸ HasVoted"/>
 <org.eventb.core.prPred name="p21" org.eventb.core.predicate="electors(elector)=No"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="INITIALISATION/type_winner/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="Elector">
 <org.eventb.core.lang name="L"/>
@@ -2321,7 +2321,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="resetSystem/type_electors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -2351,19 +2351,14 @@
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -2376,11 +2371,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2409,11 +2399,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2440,12 +2429,23 @@
 <org.eventb.core.prPred name="p16" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="resetSystem/type_candidates/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -2475,19 +2475,14 @@
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -2500,11 +2495,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2533,11 +2523,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2564,8 +2553,19 @@
 <org.eventb.core.prPred name="p16" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="resetSystem/type_winner/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="Elector">
 <org.eventb.core.lang name="L"/>
@@ -2697,7 +2697,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="registerCandidate/type_winners/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -2732,19 +2732,14 @@
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -2757,11 +2752,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2795,11 +2785,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2831,13 +2820,24 @@
 <org.eventb.core.prIdent name="candidate" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="removeCandidate/type_winners/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -2867,19 +2867,14 @@
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -2892,11 +2887,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2925,11 +2915,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -2956,12 +2945,23 @@
 <org.eventb.core.prPred name="p16" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="vote/type_winners/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="p0" org.eventb.core.prSets="Elector,HasVoted">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3,p4,p5"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3,p4,p5"/>
@@ -3009,20 +3009,11 @@
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="electors" org.eventb.core.type="ℙ(Elector×HasVoted)"/>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p24" org.eventb.core.predicate="HasVoted={Yes,electors(elector)}">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p7" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_elector=rem_candidate">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -3042,11 +3033,6 @@
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p10" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
@@ -3060,14 +3046,19 @@
 <org.eventb.core.prPred name="p22" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬Yes=electors(elector)">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p23" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
@@ -3092,6 +3083,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬Yes=No">
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
@@ -3102,15 +3097,20 @@
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="electors∈Elector ⇸ HasVoted"/>
 <org.eventb.core.prPred name="p21" org.eventb.core.predicate="electors(elector)=No"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL2"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="endVoting/type_winners/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -3145,19 +3145,14 @@
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -3170,11 +3165,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -3207,11 +3197,10 @@
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
 <org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -3238,17 +3227,28 @@
 <org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬candidates=(∅ ⦂ ℙ(Elector×ℤ))">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
 <org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="endVoting/winnerss/WD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="Elector">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3,p4,p5"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3,p4,p5"/>
@@ -3288,17 +3288,13 @@
 <org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p7" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -3313,10 +3309,6 @@
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬candidates=(∅ ⦂ ℙ(Elector×ℤ))∧(∃b⦂ℤ·∀x⦂ℤ·x∈ran(candidates)⇒b≥x)"/>
-<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p21" org.eventb.core.predicate="∃b⦂ℤ·∀x⦂ℤ·x∈ran(candidates)⇒b≥x"/>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -3344,10 +3336,9 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p10" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -3374,11 +3365,20 @@
 <org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
 <org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬candidates=(∅ ⦂ ℙ(Elector×ℤ))"/>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="resetSystem/type_winners/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="Elector">
 <org.eventb.core.lang name="L"/>
@@ -3885,7 +3885,7 @@
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="manageElectorsAndCandidates/type_manageElectors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
-<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofão},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
 <org.eventb.core.prAnte name="'">
 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
 <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
@@ -3920,19 +3920,14 @@
 <org.eventb.core.prPred name="p17" org.eventb.core.predicate="beginRegister∈BOOL">
 <org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofão=Mickey">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-</org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
 <org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
 <org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
 <org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofão,Mickey,Popeye}">
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
@@ -3945,11 +3940,6 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
-</org.eventb.core.prPred>
-<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofão=Popeye">
-<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -3978,11 +3968,10 @@
 <org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
 <org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofão},{Mickey},{Popeye})">
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
 <org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
-<org.eventb.core.prIdent name="Fofão" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
 <org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
-<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
@@ -4013,8 +4002,19 @@
 <org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
 <org.eventb.core.prIdent name="manage" org.eventb.core.type="Manage"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="manageElectorsAndCandidates/manage/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="Manage">
 <org.eventb.core.lang name="L"/>
@@ -4167,5 +4167,551 @@
 <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
 <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.totalDom:2"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="registerCandidate/type_manageElectors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HasVoted,{Yes},{No}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p6,p7"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p19"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
+<org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬add_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬add_candidate=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬add_elector=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Mickey=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬candidate∈dom(candidates)">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="candidate" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬rem_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_candidate=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Yes=No">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬add_elector=add_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(HasVoted,{Yes},{No})">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
+<org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="candidate∉dom(candidates)">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="candidate" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="registerElector/type_manageElectors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HasVoted,{Yes},{No}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p6,p7"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p19"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
+<org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬elector∈dom(electors)">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="electors" org.eventb.core.type="ℙ(Elector×HasVoted)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬add_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬add_candidate=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="elector∉dom(electors)">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="electors" org.eventb.core.type="ℙ(Elector×HasVoted)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬add_elector=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Mickey=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬rem_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_candidate=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Yes=No">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬add_elector=add_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(HasVoted,{Yes},{No})">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
+<org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="removeElector/type_manageElectors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HasVoted,{Yes},{No}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p6,p7"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p17"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p18"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p19"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p19" org.eventb.core.predicate="beginRegister∈BOOL">
+<org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="elector∉dom(candidates)">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
+<org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬add_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬add_candidate=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬add_elector=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Mickey=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬rem_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_candidate=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Yes=No">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬add_elector=add_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(HasVoted,{Yes},{No})">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="beginVoting∈BOOL">
+<org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬elector∈dom(candidates)">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="candidates" org.eventb.core.type="ℙ(Elector×ℤ)"/>
+<org.eventb.core.prIdent name="elector" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="removeCandidate/type_manageElectors/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Elector,{Fofao},{Mickey},{Popeye}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(HasVoted,{Yes},{No}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p6,p7"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate}))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p9,p10,p11,p12,p13,p14,p15"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p16"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p17"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="beginRegister∈BOOL">
+<org.eventb.core.prIdent name="beginRegister" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="HasVoted={Yes,No}">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(Elector,{Fofao},{Mickey},{Popeye})">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬add_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬add_candidate=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="partition(Manage,{add_elector},{add_candidate},{rem_elector},{rem_candidate})">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬add_elector=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬Mickey=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬rem_elector=rem_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬add_candidate=rem_elector">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="¬Fofao=Mickey">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="Manage={add_elector,add_candidate,rem_elector,rem_candidate}">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="rem_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬Yes=No">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬add_elector=add_candidate">
+<org.eventb.core.prIdent name="Manage" org.eventb.core.type="ℙ(Manage)"/>
+<org.eventb.core.prIdent name="add_candidate" org.eventb.core.type="Manage"/>
+<org.eventb.core.prIdent name="add_elector" org.eventb.core.type="Manage"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="partition(HasVoted,{Yes},{No})">
+<org.eventb.core.prIdent name="HasVoted" org.eventb.core.type="ℙ(HasVoted)"/>
+<org.eventb.core.prIdent name="No" org.eventb.core.type="HasVoted"/>
+<org.eventb.core.prIdent name="Yes" org.eventb.core.type="HasVoted"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="beginVoting∈BOOL">
+<org.eventb.core.prIdent name="beginVoting" org.eventb.core.type="BOOL"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬Fofao=Popeye">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="Elector={Fofao,Mickey,Popeye}">
+<org.eventb.core.prIdent name="Elector" org.eventb.core.type="ℙ(Elector)"/>
+<org.eventb.core.prIdent name="Fofao" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Mickey" org.eventb.core.type="Elector"/>
+<org.eventb.core.prIdent name="Popeye" org.eventb.core.type="Elector"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 </org.eventb.core.prFile>
