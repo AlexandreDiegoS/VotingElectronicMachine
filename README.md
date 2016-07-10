@@ -1,8 +1,6 @@
 # VotingElectronicMachine
 
-Implementação de uma máquina de votação eletrônica para a disciplina de Métodos Formais 2016.1 - POLI-UPE
-
-Realizada por:
+Implementation of a eletronic voting machine to the course of Formal Methods 2016.1 - POLI-UPE
 
 @ Airton Soares da Silva Júnior
 
